@@ -1,10 +1,6 @@
 # Пример работы с Yandex Iot Core на платформе Android
 
-Пример сделан с использованием Android Studio и библиотеки [Paho для Andoid](https://github.com/eclipse/paho.mqtt.android).
-
-Для работы нужно иметь созданный [реестр](https://cloud.yandex.ru/docs/iot-core/quickstart#create-registry) и [устройство](https://cloud.yandex.ru/docs/iot-core/quickstart#create-device).
-
-[Сертификат удостоверяющего центра](https://storage.yandexcloud.net/mqtt/rootCA.crt) включен в проект в качестве ресурса.
+Пример сделан с использованием Android Studio и библиотеки [Paho для Andoid](https://github.com/eclipse/paho.mqtt.android). Для работы нужно иметь созданный [реестр](https://cloud.yandex.ru/docs/iot-core/quickstart#create-registry) и [устройство](https://cloud.yandex.ru/docs/iot-core/quickstart#create-device). [Сертификат удостоверяющего центра](https://storage.yandexcloud.net/mqtt/rootCA.crt) включен в проект в качестве ресурса.
 
 Пример показывает возможность авторизации как с помощью сертификатов, так и с помощью логина и пароля, а также демонстрирует отправку и прием данных.
 
@@ -14,6 +10,9 @@
 * Поле **Received message** показывает сообщение, принятое из *subscribeTopic*.
 
 Сообщения принимаются и отправляются в кодировке UTF-8.
+
+
+Чтобы подключиться к Yandex IoT Core с устройства Android с помощью библиотеки Paho и языка программирования Java, воспользуйтесь практическим руководством [Работа с Yandex IoT Core с устройства Android на языке Java](https://yandex.cloud/ru/docs/tutorials/iot/android-java).
 
 
 ## Сертификаты
